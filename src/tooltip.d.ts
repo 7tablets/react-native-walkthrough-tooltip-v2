@@ -39,6 +39,9 @@ declare module 'react-native-walkthrough-tooltip' {
     // Styles the content wrapper that surrounds the content element
     contentStyle?: StyleProp<ViewStyle>;
 
+    // Styles the container wrapper that surrounds the background view
+    containerStyle?: StyleProp<ViewStyle>;
+
     // Styles the tooltip that wraps the arrow and content elements
     tooltipStyle?: StyleProp<ViewStyle>;
   }

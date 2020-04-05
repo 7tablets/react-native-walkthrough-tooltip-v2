@@ -179,8 +179,9 @@ const styleGenerator = styleGeneratorProps => {
           styles.containerVisible,
         topAdjustment !== 0 && {
           top: topAdjustment,
-        }
-      )
+        },
+      ),
+      ownProps.containerStyle,
     ],
     contentStyle,
     tooltipStyle: [
