@@ -1,5 +1,5 @@
 {
-  "name": "react-native-walkthrough-tooltip",
+  "name": "react-native-walkthrough-tooltip-v2",
   "version": "1.1.7",
   "description": "An inline wrapper for calling out React Native components via tooltip",
   "main": "src/tooltip.js",
@@ -42,7 +42,7 @@
     "react-native": "^0.55.3"
   },
   "peerDependencies": {
-    "@types/react": "^16.8.24"
+    "@types/react": "^17.0.39"
   },
   "jest": {
     "preset": "react-native",
